@@ -1,0 +1,20 @@
+{
+  "name": "mtg-deck-api",
+  "version": "1.0.0",
+  "description": "MTG deck recommendation API",
+  "scripts": {
+    "start": "node --experimental-modules src/node_modules/index.mjs",
+    "dev": "nodemon"
+  },
+  "author": "Andy Barron <AndrewLBarron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "4.0.0",
+    "http-errors": "1.6.2",
+    "koa": "2.4.1",
+    "koa-router": "7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
