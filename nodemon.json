@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "src/node_modules"
+  ],
+  "exec": "npm start",
+  "ext": "mjs",
+  "ignoreRoot": ["./.git/", "./node_modules/"]
+}
