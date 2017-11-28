@@ -9,10 +9,12 @@
   "author": "Andy Barron <AndrewLBarron@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "1.0.3",
     "dotenv": "4.0.0",
     "koa": "2.4.1",
     "koa-bodyparser": "4.2.0",
     "koa-router": "7.3.0",
+    "mongoose": "4.13.5",
     "validator": "9.1.2"
   },
   "devDependencies": {
